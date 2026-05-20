@@ -1,0 +1,38 @@
+[*]
+[*] GTKWave Analyzer v3.3.104 (w)1999-2020 BSI
+[*] Wed May 20 11:43:57 2026
+[*]
+[dumpfile] "/home/praneeth/internship maven/sim/apb_slave.vcd"
+[dumpfile_mtime] "Wed May 20 11:39:14 2026"
+[dumpfile_size] 1949
+[savefile] "/home/praneeth/internship maven/sim/slave_interface_output.gtkw"
+[timestart] 0
+[size] 2490 1262
+[pos] -51 -51
+*-3.976183 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] slave_interface_tb.
+[sst_width] 233
+[signals_width] 158
+[sst_expanded] 1
+[sst_vpaned_height] 374
+@28
+slave_interface_tb.DUT.pclk
+slave_interface_tb.DUT.preset
+slave_interface_tb.DUT.psel
+slave_interface_tb.DUT.penable
+slave_interface_tb.DUT.pwrite
+@22
+slave_interface_tb.DUT.paddr[3:0]
+slave_interface_tb.DUT.pwdata[31:0]
+@28
+slave_interface_tb.DUT.pres[1:0]
+slave_interface_tb.DUT.pready
+@22
+slave_interface_tb.DUT.gpio_dat_i[31:0]
+slave_interface_tb.DUT.gpio_dat_o[31:0]
+@28
+slave_interface_tb.DUT.gpio_we
+@23
+slave_interface_tb.DUT.prdata[31:0]
+[pattern_trace] 1
+[pattern_trace] 0
