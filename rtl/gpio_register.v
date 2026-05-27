@@ -207,6 +207,7 @@ module gpio_register (	input sys_clk,
 			rgpio_ints <= gpio_dat_i;
 		else if(rgpio_ctrl[addr_rgpio_ctrl_inte] == 1'b1)
 			rgpio_ints <= (rgpio_ints | ((muxed_in ^ rgpio_in) & ~(muxed_in ^ rgpio_ptrig)) & rgpio_inte);
+			//^ used to update interrupt status register based on prev reg value, interrupt enable reg value, if using ext clk and input changes and if using system clk and input changes
 	
 	//--------------------------------------
 	
