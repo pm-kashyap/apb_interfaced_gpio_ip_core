@@ -27,7 +27,7 @@ module gpio_register (	input sys_clk,
 	parameter addr_rgpio_ctrl_inte = 0;
 	parameter addr_rgpio_ctrl_ints = 1;
 	
-	reg [31:0] rgpio_in, rgpio_out, rgpio_oe, rgpio_inte, rgpio_ptrig, rgpio_aux, rgpio_ctrl, rgpio_ints, rgpio_eclk, rgpio_nec;
+	reg [31:0] rgpio_in, rgpio_out, rgpio_oe, rgpio_inte, rgpio_ptrig, rgpio_aux, rgpio_ints, rgpio_eclk, rgpio_nec;
 	reg [1:0]  rgpio_ctrl;
 	
 	reg [31:0] dat_reg;				//used to hold output, we use this to send to gpio_dat_o reg on posedge of sys clk
