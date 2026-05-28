@@ -1,0 +1,26 @@
+[*]
+[*] GTKWave Analyzer v3.3.104 (w)1999-2020 BSI
+[*] Thu May 28 11:33:35 2026
+[*]
+[dumpfile] "/home/praneeth/internship maven/sim/aux_sim.vcd"
+[dumpfile_mtime] "Thu May 28 11:32:44 2026"
+[dumpfile_size] 966
+[savefile] "/home/praneeth/internship maven/sim/aux_interface_output.gtkw"
+[timestart] 0
+[size] 2490 1262
+[pos] -51 -51
+*-13.279814 65780 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] aux_interface_tb.
+[sst_width] 233
+[signals_width] 193
+[sst_expanded] 1
+[sst_vpaned_height] 374
+@28
+aux_interface_tb.DUT.clk
+aux_interface_tb.DUT.rst
+@22
+aux_interface_tb.DUT.aux_in[31:0]
+@23
+aux_interface_tb.DUT.aux_i[31:0]
+[pattern_trace] 1
+[pattern_trace] 0
