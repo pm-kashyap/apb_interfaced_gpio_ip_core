@@ -87,6 +87,53 @@ module gpio_register_tb;
         @(negedge sys_clk);
         gpio_we    = 1'b0;			//pull down to enable reading
         
+        //external clock sample testing
+        gpio_addr  = 32'h18;			//select control register
+        gpio_dat_i = 32'h0000_0003; 		//make sure both bits of control register are high
+        gpio_we    = 1'b1;			//write into control register
+        @(negedge sys_clk);
+        gpio_we    = 1'b0;			//read from control register
+
+        in_pad_i   = 32'h0000_000F; 		//now this change will reflect at ext clk posedge
+        
+	@(negedge sys_clk);
+	@(negedge sys_clk);
+
+        //interrupt validation
+        gpio_addr  = 32'h0c;			//select interrupt enable
+        gpio_dat_i = 32'h0000_0001;		//enable interrupts only on the first bit
+        gpio_we    = 1'b1;			//write into ie reg
+        @(negedge sys_clk);
+        
+        gpio_addr  = 32'h10;			//select ptrig reg
+        gpio_dat_i = 32'h0000_0001;		//enable ptrig inter on first bit
+        @(negedge sys_clk);			//time delay to allow for ptrig reg to be written into
+        gpio_we    = 1'b0;			//read from ptrig reg. wr en is already high from prev case
+        @(negedge sys_clk);
+	@(negedge sys_clk);
+
+        //check if interrupt fires if some other bit is toggled
+        in_pad_i   = 32'h0000_001F; 		//change the 4th bit from 0 to 1
+        @(negedge sys_clk);
+	@(negedge sys_clk);			//interrupt will not fire as 4th bit is masked
+        
+        //actually toggling 0th bit to see if interrupt is fired
+        in_pad_i   = 32'h0000_001E; 		//keep 4th bit high, lower 0th bit
+        @(negedge sys_clk);
+	@(negedge sys_clk);                       	
+        
+        // Flip Bit 0 from 0 to 1! (This is our targeted positive-edge transition)
+        in_pad_i   = 32'h0000_001F; 		//push 0th bit high to trigger interrupt
+        @(negedge sys_clk);
+	@(negedge sys_clk);			//interrupt should ideally fire
+        
+        //clear interrupt status reg
+        gpio_addr  = 32'h1C;			//select int status reg
+        gpio_dat_i = 32'h0000_0000; 		//overwrite value to signal completion of interrupt servicing
+        gpio_we    = 1'b1;			//write to status reg
+        @(negedge sys_clk);
+        gpio_we    = 1'b0;
+        
         #40;
         $finish;
     end
