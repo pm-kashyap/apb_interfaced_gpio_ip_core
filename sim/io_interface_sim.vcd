@@ -1,0 +1,258 @@
+$date
+	Sat Jun  6 16:34:41 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module io_interface_tb $end
+$var wire 32 ! io_pad [31:0] $end
+$var wire 32 " in_pad_i [31:0] $end
+$var wire 1 # gpio_eclk $end
+$var reg 1 $ ext_clk_pad_i $end
+$var reg 32 % io_pad_driver [31:0] $end
+$var reg 32 & io_pad_enable [31:0] $end
+$var reg 32 ' oen_padoe_o [31:0] $end
+$var reg 32 ( out_pad_o [31:0] $end
+$scope begin external_block_simulator[0] $end
+$upscope $end
+$scope begin external_block_simulator[1] $end
+$upscope $end
+$scope begin external_block_simulator[2] $end
+$upscope $end
+$scope begin external_block_simulator[3] $end
+$upscope $end
+$scope begin external_block_simulator[4] $end
+$upscope $end
+$scope begin external_block_simulator[5] $end
+$upscope $end
+$scope begin external_block_simulator[6] $end
+$upscope $end
+$scope begin external_block_simulator[7] $end
+$upscope $end
+$scope begin external_block_simulator[8] $end
+$upscope $end
+$scope begin external_block_simulator[9] $end
+$upscope $end
+$scope begin external_block_simulator[10] $end
+$upscope $end
+$scope begin external_block_simulator[11] $end
+$upscope $end
+$scope begin external_block_simulator[12] $end
+$upscope $end
+$scope begin external_block_simulator[13] $end
+$upscope $end
+$scope begin external_block_simulator[14] $end
+$upscope $end
+$scope begin external_block_simulator[15] $end
+$upscope $end
+$scope begin external_block_simulator[16] $end
+$upscope $end
+$scope begin external_block_simulator[17] $end
+$upscope $end
+$scope begin external_block_simulator[18] $end
+$upscope $end
+$scope begin external_block_simulator[19] $end
+$upscope $end
+$scope begin external_block_simulator[20] $end
+$upscope $end
+$scope begin external_block_simulator[21] $end
+$upscope $end
+$scope begin external_block_simulator[22] $end
+$upscope $end
+$scope begin external_block_simulator[23] $end
+$upscope $end
+$scope begin external_block_simulator[24] $end
+$upscope $end
+$scope begin external_block_simulator[25] $end
+$upscope $end
+$scope begin external_block_simulator[26] $end
+$upscope $end
+$scope begin external_block_simulator[27] $end
+$upscope $end
+$scope begin external_block_simulator[28] $end
+$upscope $end
+$scope begin external_block_simulator[29] $end
+$upscope $end
+$scope begin external_block_simulator[30] $end
+$upscope $end
+$scope begin external_block_simulator[31] $end
+$upscope $end
+$scope module DUT $end
+$var wire 1 $ ext_clk_pad_i $end
+$var wire 1 # gpio_eclk $end
+$var wire 32 ) in_pad_i [31:0] $end
+$var wire 32 * io_pad [31:0] $end
+$var wire 32 + oen_padoe_o [31:0] $end
+$var wire 32 , out_pad_o [31:0] $end
+$scope begin gpio_output_tri_buffers[0] $end
+$upscope $end
+$scope begin gpio_output_tri_buffers[1] $end
+$upscope $end
+$scope begin gpio_output_tri_buffers[2] $end
+$upscope $end
+$scope begin gpio_output_tri_buffers[3] $end
+$upscope $end
+$scope begin gpio_output_tri_buffers[4] $end
+$upscope $end
+$scope begin gpio_output_tri_buffers[5] $end
+$upscope $end
+$scope begin gpio_output_tri_buffers[6] $end
+$upscope $end
+$scope begin gpio_output_tri_buffers[7] $end
+$upscope $end
+$scope begin gpio_output_tri_buffers[8] $end
+$upscope $end
+$scope begin gpio_output_tri_buffers[9] $end
+$upscope $end
+$scope begin gpio_output_tri_buffers[10] $end
+$upscope $end
+$scope begin gpio_output_tri_buffers[11] $end
+$upscope $end
+$scope begin gpio_output_tri_buffers[12] $end
+$upscope $end
+$scope begin gpio_output_tri_buffers[13] $end
+$upscope $end
+$scope begin gpio_output_tri_buffers[14] $end
+$upscope $end
+$scope begin gpio_output_tri_buffers[15] $end
+$upscope $end
+$scope begin gpio_output_tri_buffers[16] $end
+$upscope $end
+$scope begin gpio_output_tri_buffers[17] $end
+$upscope $end
+$scope begin gpio_output_tri_buffers[18] $end
+$upscope $end
+$scope begin gpio_output_tri_buffers[19] $end
+$upscope $end
+$scope begin gpio_output_tri_buffers[20] $end
+$upscope $end
+$scope begin gpio_output_tri_buffers[21] $end
+$upscope $end
+$scope begin gpio_output_tri_buffers[22] $end
+$upscope $end
+$scope begin gpio_output_tri_buffers[23] $end
+$upscope $end
+$scope begin gpio_output_tri_buffers[24] $end
+$upscope $end
+$scope begin gpio_output_tri_buffers[25] $end
+$upscope $end
+$scope begin gpio_output_tri_buffers[26] $end
+$upscope $end
+$scope begin gpio_output_tri_buffers[27] $end
+$upscope $end
+$scope begin gpio_output_tri_buffers[28] $end
+$upscope $end
+$scope begin gpio_output_tri_buffers[29] $end
+$upscope $end
+$scope begin gpio_output_tri_buffers[30] $end
+$upscope $end
+$scope begin gpio_output_tri_buffers[31] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 ,
+b0 +
+bz *
+bz )
+b0 (
+b0 '
+b0 &
+b0 %
+0$
+0#
+bz "
+bz !
+$end
+#20000
+1#
+1$
+#40000
+0#
+0$
+#60000
+1#
+1$
+#80000
+b1010101010101011010101010101010 "
+b1010101010101011010101010101010 )
+b1010101010101011010101010101010 !
+b1010101010101011010101010101010 *
+b11111111111111111111111111111111 '
+b11111111111111111111111111111111 +
+b1010101010101011010101010101010 (
+b1010101010101011010101010101010 ,
+0#
+0$
+#100000
+1#
+1$
+#120000
+0#
+0$
+#140000
+1#
+1$
+#160000
+bz "
+bz )
+bz !
+bz *
+b0 '
+b0 +
+0#
+0$
+#180000
+1#
+1$
+#200000
+b10100101101001011001100110011001 "
+b10100101101001011001100110011001 )
+b10100101101001011001100110011001 !
+b10100101101001011001100110011001 *
+b11111111111111111111111111111111 &
+b10100101101001011001100110011001 %
+0#
+0$
+#220000
+1#
+1$
+#240000
+0#
+0$
+#260000
+1#
+1$
+#280000
+b10101011110011010001001000110100 "
+b10101011110011010001001000110100 )
+b10101011110011010001001000110100 !
+b10101011110011010001001000110100 *
+b10101011110011010000000000000000 %
+b1001000110100 (
+b1001000110100 ,
+b1111111111111111 '
+b1111111111111111 +
+b11111111111111110000000000000000 &
+0#
+0$
+#300000
+1#
+1$
+#320000
+0#
+0$
+#340000
+1#
+1$
+#360000
+0#
+0$
+#380000
+1#
+1$

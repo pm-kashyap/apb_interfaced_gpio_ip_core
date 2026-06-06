@@ -1,0 +1,30 @@
+[*]
+[*] GTKWave Analyzer v3.3.104 (w)1999-2020 BSI
+[*] Sat Jun  6 11:09:42 2026
+[*]
+[dumpfile] "/home/praneeth/internship maven/sim/io_interface_sim.vcd"
+[dumpfile_mtime] "Sat Jun  6 11:04:41 2026"
+[dumpfile_size] 5694
+[savefile] "/home/praneeth/internship maven/sim/io_interface_output.gtkw"
+[timestart] 0
+[size] 2490 1262
+[pos] -51 -51
+*-15.186562 280000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] io_interface_tb.
+[sst_width] 233
+[signals_width] 255
+[sst_expanded] 1
+[sst_vpaned_height] 374
+@28
+io_interface_tb.DUT.ext_clk_pad_i
+io_interface_tb.DUT.gpio_eclk
+@22
+io_interface_tb.DUT.oen_padoe_o[31:0]
+io_interface_tb.DUT.out_pad_o[31:0]
+@23
+io_interface_tb.io_pad_driver[31:0]
+@22
+io_interface_tb.DUT.io_pad[31:0]
+io_interface_tb.DUT.in_pad_i[31:0]
+[pattern_trace] 1
+[pattern_trace] 0

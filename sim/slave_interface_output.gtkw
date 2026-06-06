@@ -1,6 +1,6 @@
 [*]
 [*] GTKWave Analyzer v3.3.104 (w)1999-2020 BSI
-[*] Wed May 20 11:43:57 2026
+[*] Fri May 29 04:31:32 2026
 [*]
 [dumpfile] "/home/praneeth/internship maven/sim/apb_slave.vcd"
 [dumpfile_mtime] "Wed May 20 11:39:14 2026"
@@ -8,11 +8,11 @@
 [savefile] "/home/praneeth/internship maven/sim/slave_interface_output.gtkw"
 [timestart] 0
 [size] 2490 1262
-[pos] -51 -51
-*-3.976183 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[pos] -1 -1
+*-3.976183 25 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
 [treeopen] slave_interface_tb.
 [sst_width] 233
-[signals_width] 158
+[signals_width] 241
 [sst_expanded] 1
 [sst_vpaned_height] 374
 @28

@@ -1,6 +1,6 @@
 [*]
 [*] GTKWave Analyzer v3.3.104 (w)1999-2020 BSI
-[*] Thu May 28 06:31:17 2026
+[*] Fri May 29 04:09:35 2026
 [*]
 [dumpfile] "/home/praneeth/internship maven/sim/gpio_sim.vcd"
 [dumpfile_mtime] "Thu May 28 06:26:18 2026"
@@ -8,8 +8,8 @@
 [savefile] "/home/praneeth/internship maven/sim/gpio_register_output.gtkw"
 [timestart] 0
 [size] 2490 1262
-[pos] -101 -101
-*-14.693523 225000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[pos] -1 -1
+*-14.693523 100000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
 [treeopen] gpio_register_tb.
 [sst_width] 233
 [signals_width] 243
@@ -28,10 +28,8 @@ gpio_register_tb.DUT.out_pad_o[31:0]
 gpio_register_tb.DUT.oen_padoe_o[31:0]
 gpio_register_tb.DUT.rgpio_in[31:0]
 gpio_register_tb.DUT.aux_i[31:0]
-gpio_register_tb.DUT.extclk_in[31:0]
 @28
 gpio_register_tb.DUT.gpio_eclk
-@29
 gpio_register_tb.DUT.gpio_inta_o
 [pattern_trace] 1
 [pattern_trace] 0
