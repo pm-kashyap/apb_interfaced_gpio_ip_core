@@ -1,9 +1,9 @@
 module slave_interface_tb;
 	reg pclk, preset, psel, penable, pwrite, gpio_inta_o;
 	reg [31:0] pwdata, gpio_dat_o;
-	reg [3:0] paddr;
+	reg [31:0] paddr;
 	wire pready, irq, sys_clk, sys_rst, gpio_we;
-	wire [3:0] gpio_addr;
+	wire [31:0] gpio_addr;
 	wire [31:0] prdata, gpio_dat_i;
 	
 	slave_interface DUT (	.pclk(pclk),
@@ -55,7 +55,7 @@ module slave_interface_tb;
 		#10 preset = 1'b0;
 		
 		@(negedge pclk);
-			paddr = 4'd2;
+			paddr = 32'd2;
 			pwrite = 1'b1;
 			pwdata = 32'd17;
 			psel = 1'b1;
@@ -73,7 +73,7 @@ module slave_interface_tb;
 		//--------------------read cycle-----------------------
 		
 		@(negedge pclk);
-		    paddr = 4'd2;
+		    paddr = 32'd2;
 		    pwrite = 1'b0;
 		    psel = 1'b1;
 		

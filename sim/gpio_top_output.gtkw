@@ -1,0 +1,48 @@
+[*]
+[*] GTKWave Analyzer v3.3.104 (w)1999-2020 BSI
+[*] Thu Jun 11 13:02:27 2026
+[*]
+[dumpfile] "/home/praneeth/internship maven/sim/gpio_top.vcd"
+[dumpfile_mtime] "Thu Jun 11 12:42:05 2026"
+[dumpfile_size] 36651
+[savefile] "/home/praneeth/internship maven/sim/gpio_top_output.gtkw"
+[timestart] 1295
+[size] 2490 1262
+[pos] -1 -1
+*-6.104188 1647 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] gpio_top_tb.
+[treeopen] gpio_top_tb.DUT.
+[sst_width] 233
+[signals_width] 263
+[sst_expanded] 1
+[sst_vpaned_height] 374
+@28
+gpio_top_tb.DUT.sys_clk
+gpio_top_tb.DUT.ext_clk_pad_i
+gpio_top_tb.DUT.sys_rst
+@22
+gpio_top_tb.DUT.aux_in[31:0]
+gpio_top_tb.DUT.gpio_addr[31:0]
+gpio_top_tb.DUT.gpio_dat_i[31:0]
+gpio_top_tb.DUT.gpio_dat_o[31:0]
+@28
+gpio_top_tb.DUT.gpio_inta_o
+gpio_top_tb.DUT.gpio_we
+@22
+gpio_top_tb.DUT.in_pad_i[31:0]
+gpio_top_tb.DUT.io_pad[31:0]
+@29
+gpio_top_tb.DUT.irq
+@22
+gpio_top_tb.DUT.oen_padoe_o[31:0]
+gpio_top_tb.DUT.out_pad_o[31:0]
+gpio_top_tb.DUT.gpio_reg.gpio_dat_i[31:0]
+gpio_top_tb.temp_reg[31:0]
+gpio_top_tb.DUT.gpio_reg.rgpio_ints[31:0]
+@28
+gpio_top_tb.DUT.pready
+@22
+gpio_top_tb.prdata[31:0]
+gpio_top_tb.DUT.gpio_reg.rgpio_in[31:0]
+[pattern_trace] 1
+[pattern_trace] 0
